@@ -27,10 +27,10 @@ let alunos = [
 //escreva um loop que percorre o vetoe a cima e informe se o aluno passou
 // condiçãopara passar: nota maior que 7
 
-console.log("FOR");
+console.log("FOR OF");
 
-for(let i= 0; i < alunos.length; i++){
-    if(alunos[i].nota > 7){
-        console.log('${alunos[i].nome}:passou');
+for (let aluno of alunos) {
+    if(aluno.nota > 7){
+        console.log(`${aluno.nome}: passou`);
     }
 }
