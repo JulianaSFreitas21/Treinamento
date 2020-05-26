@@ -109,7 +109,7 @@ function somarSubVetores(vetor){
     return resultado;
 }
 
-//TESTE FINAL
+//TESTE FINAL UDEMY
 function testeFinal(umaString, umNumero){
     // Aqui criei uma variavel para retornar no final da função, mas você pode
     // retornar o valor diretamente dentro de cada "case"
@@ -188,3 +188,4 @@ function testeFinal(umaString, umNumero){
     // Retorno da função
     return retorno;
 }
+
